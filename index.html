@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /><!--设置宽度，不允许用户缩放-->
 <link href="css/style.css" rel="styleSheet" type="text/css" />
 <script src="js/qrcode.js" type="text/javascript"></script>
+<style type="text/css">
+body{
+ background-color:rgb(249,249,249);
+}
+</style>
 <title>出入证</title>
 </head>
 <body>
@@ -36,8 +41,8 @@
         var xuehao=document.getElementById("number").innerHTML;
         var qrcode = new QRCode(document.getElementById("qrcode"), {
             text: xuehao,
-            width: 240,
-            height: 240,
+            width: 250,
+            height: 250,
             colorDark : "#000000",
             colorLight : "#ffffff",
             correctLevel : QRCode.CorrectLevel.H

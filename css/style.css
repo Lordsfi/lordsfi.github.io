@@ -1,3 +1,5 @@
+
+
 table{
     margin: 0em 1em 1em 1em;
 }
@@ -6,27 +8,32 @@ table{
     font-weight: bold;
     text-align: center;
     margin-left: 1em;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 
 #info{
     vertical-align: top;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 
 p.info{
     margin-top: 0em;
     margin-bottom: 0em;
     margin-left: 1em;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 
 p.validity{
     margin-top: 0em;
     margin-bottom: 0em;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 
 #validity{
     font-weight: bold;
     color: red;
     margin: 2em 1em 2em 1em;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 
 #qrcode{
