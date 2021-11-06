@@ -27,12 +27,11 @@ p.validity{
     font-weight: bold;
     color: red;
     margin: 2em 1em 2em 1em;
-	text-align: center;
 }
 
 #qrcode{
     margin-left: 8em;
     width: 250px;
     height: 250px;
-	text-align: center;
+	margin:0 auto 0 auto;
 }
