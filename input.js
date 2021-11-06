@@ -8,8 +8,7 @@ document.getElementById("btn").onclick=function(){
     var emon=document.getElementById("endmonth").value;
     var ed=document.getElementById("endday").value;
     var eh=document.getElementById("endhour").value;
-    var emin=document.getElementById("endmin").value;
-    var pic="https://xdgclub.com/resources/boys.jpg";;  
+    var emin=document.getElementById("endmin").value;  
     document.cookie="name="+encodeURIComponent(name)+";path=crz/";
     document.cookie="num="+num+";path=crz/";
     document.cookie="photo="+pic+";path=crz/";
