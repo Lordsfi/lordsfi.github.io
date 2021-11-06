@@ -13,7 +13,7 @@ function getCookie(cname) {
      }
     return "";
 }
-var sname=decodeURIComponent(getCookie("name"));
+var xingming=decodeURIComponent(getCookie("name"));
 var num=getCookie("num");
 var smon=getCookie("smon");
 var sd=getCookie("sd");
@@ -24,7 +24,7 @@ var ed=getCookie("ed");
 var eh=getCookie("eh");
 var emin=getCookie("emin");
 var photo=getCookie("photo");
-document.getElementById("name").innerHTML=sname;
+document.getElementById("name").innerHTML=xingming;
 document.getElementById("department").innerHTML="信息工程学院（研）";
 document.getElementById("class").innerHTML="信研19";
 document.getElementById("number").innerHTML=num;
