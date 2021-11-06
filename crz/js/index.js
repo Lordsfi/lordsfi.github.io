@@ -14,8 +14,6 @@ function getCookie(cname) {
     return "";
 }
 var xingming=decodeURIComponent(getCookie("name"));
-var dept=decodeURIComponent(getCookie("dept"));
-var banji=decodeURIComponent(getCookie("banji"));
 var num=getCookie("num");
 var smon=getCookie("smon");
 var sd=getCookie("sd");
@@ -25,11 +23,7 @@ var emon=getCookie("emon");
 var ed=getCookie("ed");
 var eh=getCookie("eh");
 var emin=getCookie("emin");
-var photo=getCookie("photo");
-var upload=localStorage.getItem("photo");
 document.getElementById("name").innerHTML=xingming;
-document.getElementById("department").innerHTML=dept;
-document.getElementById("class").innerHTML=banji;
 document.getElementById("number").innerHTML=num;
 document.getElementById("year0").innerHTML="2021";
 document.getElementById("month0").innerHTML=smon;
@@ -41,7 +35,3 @@ document.getElementById("month1").innerHTML=emon;
 document.getElementById("day1").innerHTML=ed;
 document.getElementById("hour1").innerHTML=eh;
 document.getElementById("minute1").innerHTML=emin;
-document.getElementById("photo").src=photo;
-if (upload){
-    document.getElementById("photo").src=upload;
-}
