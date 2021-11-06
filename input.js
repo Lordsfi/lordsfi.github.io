@@ -9,15 +9,15 @@ document.getElementById("btn").onclick=function(){
     var ed=document.getElementById("endday").value;
     var eh=document.getElementById("endhour").value;
     var emin=document.getElementById("endmin").value;
-    document.cookie="name="+encodeURIComponent(name)+";path=crz/";
-    document.cookie="num="+num+";path=crz/";
-    document.cookie="smon="+smon+";path=crz/";
-    document.cookie="sd="+sd+";path=crz/";
-    document.cookie="sh="+sh+";path=crz/";
-    document.cookie="smin="+smin+";path=crz/";
-    document.cookie="emon="+emon+";path=crz/";
-    document.cookie="ed="+ed+";path=crz/";
-    document.cookie="eh="+eh+";path=crz/";
-    document.cookie="emin="+emin+";path=crz/";
-    window.open("crz/index.html");
+    document.cookie="name="+encodeURIComponent(name)+";path=lzf/";
+    document.cookie="num="+num+";path=lzf/";
+    document.cookie="smon="+smon+";path=lzf/";
+    document.cookie="sd="+sd+";path=lzf/";
+    document.cookie="sh="+sh+";path=lzf/";
+    document.cookie="smin="+smin+";path=lzf/";
+    document.cookie="emon="+emon+";path=lzf/";
+    document.cookie="ed="+ed+";path=lzf/";
+    document.cookie="eh="+eh+";path=lzf/";
+    document.cookie="emin="+emin+";path=lzf/";
+    window.open("lzf/index.html");
 }
