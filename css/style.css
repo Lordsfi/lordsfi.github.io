@@ -27,6 +27,7 @@ p.validity{
     font-weight: bold;
     color: red;
     margin: 2em 1em 2em 1em;
+	text-align: center;
 }
 
 #qrcode{
