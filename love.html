@@ -218,6 +218,11 @@
         runAsync().start();
     })();
     </script>
-    <iframe src = "music/园游会.mp3" allow = "autoplay" hidden /> //自己修改音乐位置
+    <audio id="audio" src="music/园游会.mp3" controls="controls" autoplay="autoplay">
+	</audio>
+	<script>
+	var audio=document.getElementById("audio");
+	audio.play();
+	</script>
 </body>
 </html>
